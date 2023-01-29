@@ -1,0 +1,20 @@
+// Для больших мониторов
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .hotel{
+        &__slider {
+        width: 590px;
+    }
+}
+    .swiper {
+        &-slide {
+            &__image {
+                width: 100%;
+                height: 450px;
+                object-fit: cover;
+            }
+        }
+    }
+}
