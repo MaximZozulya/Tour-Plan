@@ -903,6 +903,14 @@ template {
   .logo {
     width: 132px;
   }
+  .hotel__slider {
+    width: 700px;
+  }
+  .hotel-slider__image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
   .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -954,6 +962,14 @@ template {
   .container {
     max-width: 576px;
     width: 92%;
+  }
+  .hotel__slider {
+    width: 570px;
+  }
+  .hotel-slider__image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
   }
   .navbar-menu, .navbar__search, .navbar__user {
     display: none;
@@ -1045,6 +1061,14 @@ template {
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+  .hotel__slider {
+    width: 500px;
+  }
+  .hotel-slider__image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
   }
   .hotel__slider {
     margin-bottom: 20px;
