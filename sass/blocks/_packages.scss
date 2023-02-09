@@ -23,13 +23,13 @@ h2 {
    row-gap: 30px;
    margin-bottom: 65px;
    &__card {
-      background: #0A223D;
+      background: $dark;
       color: #fff;
       border-radius: 6px;
    }
    &-info {
       padding: 10px 21px 30px 44px;
-      background: #0A223D;
+      background: $dark;
       color: #fff;
       border-radius: 0px 6px 6px 0px;
    }
@@ -150,7 +150,7 @@ h2 {
       font-style: normal;
       font-weight: 600;
       line-height: 15px;
-      background-color: #ec1f46;
+      background-color: $primary;
       color: #ffffff;
       border-radius: 0px 4px 4px 0px;
    }
@@ -162,7 +162,7 @@ h2 {
          font-size: 12px;
          font-weight: normal;
          line-height: 15px;
-         background-color: #ec1f46;
+         background-color: $primary;
          color: #ffffff;
          border-radius: 0px 4px 4px 0px;
       }
