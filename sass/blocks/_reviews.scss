@@ -54,7 +54,8 @@
          width: 90px;
          height: 90px;
          border-radius: 50%;
-         object-fit: cover;
+         -o-object-fit: cover;
+            object-fit: cover;
          margin-bottom: 9px;
       }
       &__username {
