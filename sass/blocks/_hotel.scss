@@ -156,12 +156,14 @@
    &__description {
       margin-left: 9px;
    }
-   &__call-center {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 17px;
+   &__call {
+      &-center {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         margin-bottom: 17px;
    }
+}
    &__heding {
       font-weight: 600;
       font-size: 18px;

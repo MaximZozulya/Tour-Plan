@@ -22,11 +22,6 @@ h2 {
         column-gap: 30px;
    row-gap: 30px;
    margin-bottom: 65px;
-   &__card {
-      background: $dark;
-      color: #fff;
-      border-radius: 6px;
-   }
    &-info {
       padding: 10px 21px 30px 44px;
       background: $dark;
@@ -34,6 +29,9 @@ h2 {
       border-radius: 0px 6px 6px 0px;
    }
    &__card {
+      background: $dark;
+      color: #fff;
+      border-radius: 6px;
       &-title {
          font-family: 'Mulish';
          font-style: normal;
@@ -42,8 +40,6 @@ h2 {
          line-height: 23px;
          margin-bottom: 27px;
       }
-   }
-   &__card {
       &-text {
          max-width: 299px;
          font-family: 'Mulish';
