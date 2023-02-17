@@ -17,16 +17,16 @@
 </head>
 
 <body>
-   <header class="navbar">
+   <header class="navbar navbar--mobile_fixed">
       <div class="container">
          <div class="navbar-top">
             <a class="logo" href="#"><img class="logo__image" src="img/horizontal-logo.svg"
                   alt="Logo: Beast Tour Plan "></a>
-            <form class="search navbar__search" action="#">
+            <form class="search navbar__search navbar__search--mobile_hidden" action="#">
                <input class="search__input" type="text" placeholder="Search Location">
                <button class="search__button"><img src="img/search.svg" alt=""></button>
             </form>
-            <a class="user navbar__user">
+            <a class="user navbar__user navbar__user--mobile_hidden">
                <img class="user__avatar" src="img/maxim.jpg" alt="Avatar: Maxim">
                <span class="user__name">Maxim</span>
             </a>
@@ -40,6 +40,18 @@
       <div class="navbar-bottom">
          <div class="container">
             <nav class="navbar-menu">
+               <li class="navbar-menu__item navbar-menu__item--mobile_visible">
+                  <a class="user navbar__user navbar__user--mobile_visible">
+                     <img class="user__avatar" src="img/maxim.jpg" alt="Avatar: Maxim">
+                     <span class="user__name user__name--light">Maxim</span>
+                  </a>
+               </li>
+               <li class="navbar-menu__item navbar-menu__item--mobile_visible">
+                  <form class="search navbar__search navbar__search--mobile_visible" action="#">
+                     <input class="search__input" type="text" placeholder="Search Location">
+                     <button class="search__button"><img src="img/search.svg" alt=""></button>
+                  </form>
+               </li>
                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">All Deals</a></li>
                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Hotels</a></li>
                <li class="navbar-menu__item"><a class="navbar-menu__link" href="#">Activities</a></li>
