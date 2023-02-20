@@ -85,6 +85,18 @@
    &__input:last-of-type {
       margin: 0 0px 15px 0;
    }
+   &__input::-webkit-input-placeholder {
+      color: $dark;
+   }
+   &__input::-moz-placeholder {
+      color: $dark;
+   }
+   &__input:-ms-input-placeholder {
+      color: $dark;
+   }
+   &__input::-ms-input-placeholder {
+      color: $dark;
+   }
    &__input::placeholder {
       color: $dark;
    }
